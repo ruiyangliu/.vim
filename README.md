@@ -4,7 +4,11 @@ I use this for Laravel development. Will need to include React.js dev tools soon
 
 ## Setup
 
-Clone and move folder to ~/.vim
+1. Clone and move folder to ~/.vim
+2. mkdir colors
+3. Clone Theme and place it into colors
+4. mkdir bundle
+5. Clone Vundle and place it into bundle
 
 Theme: [vim-atom-dark](https://github.com/gosukiwi/vim-atom-dark)
 
