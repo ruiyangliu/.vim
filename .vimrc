@@ -1,12 +1,12 @@
-set nocompatible              						"We want the latest Vim settings/options.
+set nocompatible "We want the latest Vim settings/options.
 set showtabline=2
 
 so ~/.vim/plugins.vim
 
 syntax enable
-set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
-let mapleader = ',' 						    	"The default is \, but a comma is much better.
-set number								"Let's activate line numbers.
+set backspace=indent,eol,start "Make backspace behave like every other editor.
+let mapleader = ',' "The default is \, but a comma is much better.
+set number "Let's activate line numbers.
 set noerrorbells visualbell t_vb=
 
 filetype plugin indent on
@@ -44,17 +44,14 @@ set incsearch								"Incrementally highlight, as we type.
 
 
 "-------------Split Management--------------"
-set splitbelow 								"Make splits default to below...
-set splitright								"And to the right. This feels more natural.
+set splitbelow "Make splits default to below...
+set splitright "And to the right. This feels more natural.
 
 "We'll set simpler mappings to switch between splits.
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
-
-
-
 
 "-------------Mappings--------------"
 "Make it easy to edit the Vimrc file.
