@@ -83,6 +83,7 @@ let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 "/ NERDTree
 "/
 let NERDTreeHijackNetrw = 0
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 "
 "/

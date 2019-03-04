@@ -14,6 +14,7 @@ Plugin 'msanders/snipmate.vim'
 Plugin 'prettier/vim-prettier'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'editorconfig/editorconfig-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
